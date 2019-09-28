@@ -1,6 +1,6 @@
 mod formatted_debug;
-mod formatted_person;
 mod formatted_display;
+mod formatted_person;
 
 fn main() {
     formatted();
@@ -67,5 +67,5 @@ fn formatted_person() {
 }
 
 fn formatted_display() {
-   formatted_display::main();
+    formatted_display::main();
 }
